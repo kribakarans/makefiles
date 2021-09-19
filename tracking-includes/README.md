@@ -5,8 +5,7 @@
 
 **Description:**<br>
 
-If we want *.o to be rebuilt whenever a header file changes instead of full re-build, the GCC compiler can assemble a list of dependencies for you by passing ```-MM``` option.
-This will generate the dependency file by looking at the #include lines in the source files. This is done with the ‘-M’ option  variants of the compiler.
+If we want *.o to be rebuilt whenever a header file changes instead of full re-build, the GCC compiler can assemble a list of dependencies for you by passing ```-MM``` option. This will generate the dependency file by looking at the #include lines in the source files. This is done with the ‘-M’ option  variants of the compiler.
 
 **Features:**
 - Track header-file changes which rebuilt only the modified objects
