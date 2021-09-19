@@ -1,5 +1,4 @@
-## simple-makefile
-Simple makefile demo
+## Simple makefile demo
 
 **Tags:**<br>
 ```include-dir``` ```src-dir``` ```auto-resolve-header-dependencies``` ```auto-resolve-object-files``` ```clear-objects```
@@ -46,6 +45,6 @@ obj     -- used by Makefile to generate object code
         └── main.c
 ```
 
-**Reference**
+**Reference**<br>
 https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor
 
