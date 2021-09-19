@@ -27,7 +27,7 @@ src     -- collections of source codes
 obj     -- used by Makefile to generate object code
 ```
 - Remove object files, core files and swap files
-- Compiling project based on Header file dependencies
+- Re-compiling project based on Header file dependencies
 - Sample project to test the build
 ```
     simple-makefile
@@ -46,5 +46,5 @@ obj     -- used by Makefile to generate object code
 ```
 
 **Reference**<br>
-https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor
+https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor<br>
 
