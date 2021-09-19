@@ -1,7 +1,7 @@
 ## Simple makefile demo
 
 **Tags:**<br>
-```include-dir``` ```src-dir``` ```auto-resolve-header-dependencies``` ```auto-resolve-object-files``` ```clear-objects```
+```include-dir``` ```src-dir``` ```obj-dir``` ```auto-resolve-header-dependencies``` ```auto-resolve-object-files``` ```clear-objects```
 
 **Description:**<br>
 If we want to start putting our ```.h``` files in an ```include``` directory, our source code in a ```src``` directory, and some local libraries in a ```lib``` directory? Also, can we somehow hide those annoying ```.o``` files that hang around all over the place?<br>
@@ -14,9 +14,9 @@ Note that it also includes a rule for cleaning up your source and object directo
 The ```.PHONY``` rule keeps make from doing something with a file named clean.<br>
 
 **Limitations:**<br>
-1. Manual header file inclusion in ```_DEPS``` variable 
-   Solution: Replace ```_DEPS``` variable with ```_DEPS=.h```
-2. Manual source or object file inclusion in ```_OBJ``` variable
+1. Manual header file inclusion in ```_DEPS``` variable
+2. Header file path defined in ```INCLUDE``` variable always looks in ```./include``` directory
+3. Manual source or object file inclusion in ```_OBJ``` variable
 
 **Features**<br>
 - Self descriptive build rules

@@ -1,6 +1,6 @@
 # GNU Makefile
 
-TARGET=a.out
+TARGET  =  a.out
 
 GCC     =  gcc
 SRC     = ./src
@@ -28,12 +28,12 @@ info:
 	@printf "\nTARGET     =  $(TARGET)"
 	@printf "\nCOMPILER   =  $(GCC)"
 	@printf "\nCFLAGS     = $(CFLAGS)"
-	@printf "\nODIR       = $(ODIR)"
-	@printf "\nLDIR       = $(LDIR)"
+	@printf "\nOBJ_DIRS   = $(ODIR)"
+	@printf "\nLIB_DIR    = $(LDIR)"
 	@printf "\nLIBS       = $(LIBS)"
 	@printf "\nINCLUDE    = $(INCLUDE)"
 	@printf "\nDEPS       = $(DEPS)"
-	@printf "\nOBJ        = $(OBJ)\n"
+	@printf "\nOBJECTS    = $(OBJ)\n"
 	@printf "\nCompiling source files:\n"
 
 $(ODIR)/%.o: $(SRC)/%.c $(DEPS)
