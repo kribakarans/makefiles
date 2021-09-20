@@ -1,4 +1,4 @@
-## Static soure-code analysis
+## Makefile: Static soure-code analysis
 
 **Tags:**<br>
 ```splint-usage```  ```make-lint```

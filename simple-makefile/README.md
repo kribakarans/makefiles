@@ -1,4 +1,4 @@
-## Simple makefile demo
+## Simple Makefile
 
 **Tags:**<br>
 ```include-dir``` ```src-dir``` ```obj-dir``` ```auto-resolve-header-dependencies``` ```auto-resolve-object-files``` ```clear-objects```
