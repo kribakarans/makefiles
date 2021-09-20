@@ -1,7 +1,7 @@
 ## Makefile: Automatic #include dependency tracking
 
 **Tags:**<br>
-```-MM gcc flag usage```  ```tracking-headerfile-changes``` ```modularity```
+```gcc -MM  usage```  ```tracking-headerfile-changes```  ```modularity```  ```file-dependency```
 
 **Description:**<br>
 
