@@ -4,7 +4,7 @@
 **Tags:**<br>
 ```shared-library``` ```headerfile-dependency``` ```test-app```
 
-**Description**
+**Description:**<br>
 Makefile to build a C shared library.
 
 **Features:**
