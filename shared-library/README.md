@@ -9,7 +9,7 @@ Makefile to build a C shared library.
 
 **Features:**
 - Build ```libtest.so``` shared library
-- Test project invokes the compiled shared library
+- Test project to test the compiled shared library
 - Do ```make``` in ```test``` directory to build test application
 - ```test.out``` uses ```libtest.so``` at runtime
 
