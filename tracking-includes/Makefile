@@ -1,6 +1,7 @@
 
 # GNU Makefile
 
+# Final binary name
 TARGET    = a.out
 
 # Makefile specifics
@@ -8,8 +9,8 @@ RM        = -rm -f
 
 # Compiler flags
 GCC       = clang
-INCLUDE   = ./include
-GCC_FLAGS = -Wall -g3 -I$(INCLUDE)
+INCLUDE   = -I ./include
+GCC_FLAGS = -Wall -g3 $(INCLUDE)
 
 SRC_DIR   = ./src
 OBJ_DIR   = ./obj
