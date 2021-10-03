@@ -8,15 +8,15 @@ Visit each of the below templates for more understanding.
    - Simple makefile with basic rules
    - Separate directory for object files
 
-2. [Makefile to track header file changes:](https://github.com/kribakarans/makefiles/tracking-includes)
+2. [Makefile to track header file changes:](https://github.com/kribakarans/makefiles/tree/master/tracking-includes)
     - Track header-file changes used to rebuilt only the modified object files
     - Simple rules and Build directory for object files
 
-3. [Makefile to build shared library:](https://github.com/kribakarans/makefiles/shared-library)
+3. [Makefile to build shared library:](https://github.com/kribakarans/makefiles/tree/master/shared-library)
     - Build shared library (.so) file
     - Automatic header-file dependency tracking
 
-3. [Makefile to do the static source code analysis with "splint" tool:](https://github.com/kribakarans/makefiles/make-lint)
+3. [Makefile to do the static source code analysis with "splint" tool:](https://github.com/kribakarans/makefiles/tree/master/make-lint)
     - Makefile rule to execute splint program to start static source code analysis
     - Splint is a tool for statically checking C programs for security vulnerabilities and coding mistakes.
     - Automatic header-file dependency tracking
